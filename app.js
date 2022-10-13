@@ -21,6 +21,7 @@ function fetchData(){
         console.log(data.gender);
         if(data.probability === 0){
             opTxt.textContent = `Sorry, we couldn't find any results. Pls try some other name.`
+            opTxt2.textContent = "😢"
         }else{
             opTxt.textContent = `Gender is ${data.gender}`
             opTxt2.textContent = `Probability is ${Math.round(data.probability*100,2)}%`
