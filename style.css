@@ -19,10 +19,14 @@ body{
     margin: 0 auto;
     padding-top: 4rem;
 }
+h1{
+    color: rgb(180, 129, 29);
+}
 p{
     padding: 10px;
     margin-bottom: 2rem;
     font-style: italic;
+    color: rgb(213, 158, 47);
 }
 .hide{
     display: none;
